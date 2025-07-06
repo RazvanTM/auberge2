@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="./assets/vecteezy_bowl-illustrated-on-a-white-background_8193816-removebg-preview.png"
+    />
+    <!-- Change this to your restaurant logo which will appear in the browser tab-->
+    <title>Auberge des Montagnards</title>
+  </head>
+  <body>
+    <header id="navbar">
+      <nav>
+        <div class="logo">
+          <img
+            src="./assets/vecteezy_bowl-illustrated-on-a-white-background_8193816-removebg-preview.png"
+            alt="ADM"
+            width="60px"
+            height="60px"
+          />
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">&#9776;</div>
+      </nav>
+    </header>
+
+    <main>
+      <span
+        class="restaurant-bg"
+        style="background-image: url(./assets/restaurant-background.jpgg.png)"> <!-- Change this to your restaurant background image, it will tint automatically, though you can configure it in the css -->
+        <h1>Auberge des Montagnards</h1>
+        <p>
+          Pour les réservations, appelez le numéro<p>+33 4 50 85 00 90
+        </p>
+        <a href="#about" class="button">À propos de nous</a>
+      </span>
+      <section id="about">
+        <div class="about-container">
+          <div class="about-text">
+            <h1>À propos de nous</h1>
+            <p>
+              Cuisine Traditionnelle. Terrasse avec vue sur la chaîne du Mont-Blanc.Ouvert pour le déjeuner.
+              Ouvert le soir de mai à septembre.
+              <!--add as much as you'd like, the about section will expand automatically-->
+            </p>
+
+            <p>
+              L'horaire d'été de la cuisine est du mardi au dimanche entre 11h30-14h00 et 19h00-21h00. Dimanche 11h30-15h00.
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="./assets/noodle-bowl.png" alt="Food" />
+          </div>
+        </div>
+      </section>
+
+      <section id="menu">
+        <div class="others-text">
+          <h1>Notre menu, quelques exemples</h1>
+          <p>
+            Découvrez nos délicieuses offres de menu, élaborées avec les meilleurs
+            ingrédients pour satisfaire vos envies.
+          </p>
+
+          <div class="cards-style">
+            <span class="menu-card">
+              <h2 style="text-align: center">Boisson</h2>
+              <ol class="menu-list">
+                <!-- you can add as many items as you'd like, the menu will expand automatically-->
+                <li>
+                  <div class="item">
+                    <span>Sangria maison</span><span>$6.50</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="item"><span>Café</span><span>$2.00</span></div>
+                </li>
+                <li>
+                  <div class="item"><span>Thé</span><span>$1.50</span></div>
+                </li>
+                <li>
+                  <div class="item">
+                    <span>Coca Cola</span><span>$3.85</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="item"><span>Spritz</span><span>$3.85</span></div>
+                </li>
+              </ol>
+            </span>
+
+            <span class="menu-card">
+              <h2 style="text-align: center">Plats</h2>
+              <ol class="menu-list">
+                <li>
+                  <div class="item"><span>Filet de boeuf</span><span>$31.50</span></div>
+                </li>
+                <li>
+                  <div class="item"><span>Porc ibérique</span><span>$19.50</span></div>
+                </li>
+                <li>
+                  <div class="item">
+                    <span>Tartiflette aux cepes</span><span>$23.90</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="item">
+                    <span>Escalope savoyarde, frites</span><span>$23.10</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="item"><span>Croûte au fromage</span><span>$15.90</span></div>
+                </li>
+              </ol>
+            </span>
+
+            <span class="menu-card">
+              <h2 style="text-align: center">Desserts</h2>
+              <ol class="menu-list">
+                <li>
+                  <div class="item">
+                    <span>Ice cream</span><span>$2.50</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="item"><span>Tarte aux myrtilles</span><span>$7.50</span></div>
+                </li>
+                <li>
+                  <div class="item">
+                    <span>Iles flotantes</span><span>$6.90</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="item"><span>Crème brûlée</span><span>$7.70</span></div>
+                </li>
+                <li>
+                  <div class="item"><span>Melleux au chocolat</span><span>$9.80</span></div>
+                </li>
+              </ol>
+              <!--you can change the price, items name as much as you'd like-->
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section id="misc">
+        <div class="misc-container">
+          <h1>Quelques photos de ce que vous pouvez servir</h1>
+          <p>
+           Découvrez quelques-unes de nos photos de restaurant, prises par notre équipe
+           pour mettre en valeur notre délicieuse cuisine et notre atmosphère accueillante.
+
+          </p>
+          <div class="misc-images">
+            <img src="./assets/photoshoot1.png" alt="Food Shot 1" />
+            <img src="./assets/photoshoot2.png" alt="Food Shot 2" />
+            <img src="./assets/photoshoot3.png" alt="Food Shot 3" />
+            <img src="./assets/photoshoot4.png" alt="Food Shot 4" />
+            <img src="./assets/photoshoot5.png" alt="Food Shot 5" />
+            <img src="./assets/photoshoot6.png  " alt="Food Shot 6" />
+            <img src="./assets/photoshoot7.png  " alt="Food Shot 7" />
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p class="subtext">
+          N'hésitez pas à nous contacter via l'une des méthodes ci-dessous.
+        </p>
+
+        <div class="contact-cards">
+          <div class="card">
+            <div class="icon">📍</div>
+            <h3>Adresse</h3>
+            <p>7576 Route du Mont Saleve La Croisette, 74560 La Muraz France</p>
+          </div>
+
+          <div class="card">
+            <div class="icon">📞</div>
+            <h3>Téléphone</h3>
+            <p>+33 4 50 85 00 90</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="footer">
+        <div class="footer-container">
+          <h2>Suivez-nous</h2>
+          <p>
+            Restez connecté avec nous sur les réseaux sociaux pour les dernières mises à jour et
+            promotions.
+          </p>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/aubergedesmontagnards/" target="_blank"
+              ><img
+                src="./assets/instagram-logo-removebg-preview.png "
+                alt="Instagram Icon"
+                width="60"
+                height="30"
+            /></a>
+            <!-- Add more social media icons as needed -->
+             <!--IMPORTANT NOTE!!! if you add a new social media link, the logo may not look perfect, it may stertch, squish, or others, so make sure to adjust the width and height until it looks perfect-->
+            </div>
+            
+            <footer>
+             &copy; 2025 AUBERGE DES MONTAGNARDS.
+              <br />
+             Made with ❤ by <a href="https://www.instagram.com/tutarazvan/">Tuță Răzvan</a> <!--you can add extra informations here, like address, or something more-->
+             <br />
+            </footer>
+        </div>
+
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
